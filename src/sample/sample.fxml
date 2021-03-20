@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="816.0" prefWidth="825.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="-2.0" prefHeight="816.0" prefWidth="825.0">
+         <children>
+            <Label layoutX="28.0" layoutY="188.0" prefHeight="37.0" prefWidth="64.0" text="Jméno" />
+            <TextField layoutX="141.0" layoutY="192.0" prefHeight="28.0" prefWidth="159.0" style="-fx-border-color: #000000;" />
+            <Label layoutX="24.0" layoutY="232.0" prefHeight="43.0" prefWidth="73.0" text="Příjmení" />
+            <Label layoutX="-31.0" layoutY="115.0" prefHeight="43.0" prefWidth="182.0" text="Label" />
+            <TextField layoutX="141.0" layoutY="239.0" prefHeight="28.0" prefWidth="159.0" style="-fx-border-color: #000000;" />
+            <Label layoutX="26.0" layoutY="293.0" prefHeight="28.0" prefWidth="95.0" text="Telefoní číslo " />
+            <TextField layoutX="141.0" layoutY="293.0" prefHeight="28.0" prefWidth="159.0" style="-fx-border-color: #000000;" />
+            <Separator layoutX="73.0" layoutY="137.0" prefHeight="9.0" prefWidth="679.0" />
+            <Label layoutX="79.0" layoutY="47.0" prefHeight="59.0" prefWidth="697.0" text="REGISTRAČNÍ SYSTÉM AUTOSERVISU" textAlignment="CENTER">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Label>
+            <Separator layoutX="73.0" layoutY="775.0" prefHeight="9.0" prefWidth="679.0" />
+            <DatePicker editable="false" layoutX="464.0" layoutY="185.0" prefHeight="43.0" prefWidth="264.0" promptText="Vyberte datum objednávky:" />
+            <ComboBox layoutX="464.0" layoutY="261.0" prefHeight="43.0" prefWidth="264.0" promptText="Vyberte čas objednávky:" />
+            <Label layoutX="60.0" layoutY="396.0" prefHeight="37.0" prefWidth="85.0" text="Značka vozu" />
+            <Label layoutX="60.0" layoutY="440.0" prefHeight="37.0" prefWidth="85.0" text="Model vozu" />
+            <TextArea layoutX="151.0" layoutY="528.0" prefHeight="116.0" prefWidth="567.0" style="-fx-border-color: #000000;" />
+            <TextField layoutX="151.0" layoutY="394.0" prefHeight="28.0" prefWidth="159.0" style="-fx-border-color: #000000;" />
+            <TextField layoutX="151.0" layoutY="445.0" prefHeight="28.0" prefWidth="159.0" style="-fx-border-color: #000000;" />
+            <Label layoutX="55.0" layoutY="519.0" prefHeight="37.0" prefWidth="132.0" text="Popis závady" />
+            <Button layoutX="366.0" layoutY="712.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="95.0" text="Uložit" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
